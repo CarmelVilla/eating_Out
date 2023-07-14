@@ -48,7 +48,8 @@ barchartGC(~race + eatout,data=mydata)
 barchartGC(~race + eatout,data=mydata,
 type="percent")
 ```
-These graphs shows there is a small difference
+
+These graphs shows there is a small difference in certain ethnicities eating out.
 
 
 
@@ -59,6 +60,10 @@ table1 <- xtabs(~race + eatout,data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
+It appears that white people eat out more frequent than blacks and other ethnicities.
+
+
+
 ### inferential results
 
 ```{r}
