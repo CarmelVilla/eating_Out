@@ -13,7 +13,7 @@ date: "`r Sys.Date()`"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-#Introduction
+# Introduction
 Does the number of times that people of different ethnicities eat out differ?
 
 ## There were two years in which the General Social Survey asked about the frequency of eating out.
