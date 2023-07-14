@@ -69,7 +69,13 @@ It appears that white people eat out more frequent than blacks and other ethnici
 ```{r}
 chisq.test(table1)
 chisqtestGC(table1)
-fisher.test(table1)
+fisherXY(mydata$race,mydata$eatout,printAll=T)
 ```
 
-The P value is so small that I reject the null hypothesis. There is a difference on eating out based on ethnicity. So I conclude there is a difference.
+The P value number is so small that I reject the null hypothesis.There is a difference on eating out based on all ethnicities. 
+The fisher exact test indicates the P value 0.0008179.
+The fisher XY test indicates that the P value is 0.2815
+
+# Discussion and Conclusion
+
+I conclude the is a difference in ethnicities eating out. I reject the Null hypothesis.The is a difference is whites eating out more than other races.
