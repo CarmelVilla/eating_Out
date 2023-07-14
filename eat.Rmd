@@ -38,10 +38,13 @@ mydata <- na.omit(mydata)
 ```
 
 # Method
+data was retrived from gss.datadowload
 
 # Results
+The results show the difference in ethnicities eating out.
 
 ## graphical results
+
 
 ```{r}
 barchartGC(~race + eatout,data=mydata)
