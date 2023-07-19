@@ -75,10 +75,10 @@ chisqtestGC(table1)
 fisherXY(mydata$race,mydata$eatout,printAll=T)
 ```
 
-The P value number is so small that I fail to reject the null hypothesis.There is a difference on eating out based on all ethnicities. 
+The P value number is so small that I fail to reject the null hypothesis.There is a difference in eating out with whites and blacks.Whites eat out more than blacks.No differences in other ethnicity.The answer being that whites eat out more.
 The fisher exact test indicates the P value 0.0008179.
 The fisher XY test indicates that the P value is 0.2815
 
 # Discussion and Conclusion
 
-I conclude the is a difference in ethnicities eating out. I reject the Null hypothesis.The is a difference is whites eating out more than other races.
+I conclude the is a difference in ethnicities eating out. I reject the Null hypothesis.The is a difference is whites eating out more than other races.For example the whites eat out more than blacks and other ethnicities.
